@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Programación</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- menus -->
+    <nav>
+        <ul class="menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="#info">Información</a></li>
+            <li><a href="#frontend">FrontEnd</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- hero -->
+    <header class="hero">
+        <div class="hero-texto">
+            <h1>Blog de Programación</h1>
+            <h2>Tu blog de código</h2>
+        </div>
+    </header>
+    <!-- información -->
+    <section class="info" id="info">
+        <div class="contenedor">
+            <h3 class="titulo">Información relevante</h3>
+            <p>
+                En la actualidad, la noción de programación se encuentra muy asociada a la creación de aplicaciones de
+                informática y videojuegos. En este sentido, es el proceso por el cual una persona desarrolla un
+                programa, valiéndose de una herramienta que le permita escribir el código (el cual puede estar en uno o
+                varios lenguajes, como C++, Java y Python, entre muchos otros) y de otra que sea capaz de “traducirlo” a
+                lo que se conoce como lenguaje de máquina, que puede "comprender" el microprocesador
+            </p>
+        </div>
+    </section>
+    <!-- cards -->
+    <section class="contenedor" id="frontend">
+        <h2 class="titulo">FrontEnd</h2>
+        <div class="contenedor-card">
+            <article class="card">
+                <div class="espacio">
+                    <i class="bi bi-airplane-engines"></i>
+                </div>
+                <h3> HTML 5</h3>
+                <p>Aprenda sobre html 5</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+            <article class="card">
+                <div class="espacio">
+                    <i class="bi bi-apple"></i>
+                </div>
+                <h3> CSS 3</h3>
+                <p>Aprenda sobre css 3</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+            <article class="card">
+                <div class="espacio">
+                    <i class="bi bi-backpack2"></i>
+                </div>
+                <h3> JavaScript</h3>
+                <p>Aprenda sobre javascript</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+        </div>
+    </section>
+    <!-- galería -->
+    <section class="galeria" id="galeria">
+        <div class="contenedor">
+            <h2 class="titulo"> Galería de Imagenes</h2>
+            <div class="contenedor-galeria">
+                <img src="img/img1.jpg" alt="">
+                <img src="img/img2.jpg" alt="">
+                <img src="img/img3.jpg" alt="">
+                <img src="img/img4.jpg" alt="">
+                <img src="img/img5.png" alt="">
+                <img src="img/img6.png" alt="">
+                <img src="img/img7.png" alt="">
+                <img src="img/img8.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo">Formulario de contacto</h2>
+            <form class="formulario">
+                <input type="text" id="nombre" name="nombre" class="input input-ancho"
+                placeholder="Ingresa nombre">
+                <input type="text" id="email" name="email" class="input input-ancho"
+                placeholder="Ingresa email">
+                <textarea type="msj" id="msj" name="msj" class="input textarea-ancho" placeholder="Ingresa mensaje"
+                cols="30" rows="10"></textarea>
+                <input type="reset" value="limpiar" class="boton">
+                <input type="submit" value="enviar" class="boton">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <!-- crear footer, con sus datos personales: nombre, fono, mail, dirección
+            añadir un icono al lado de cada dato -->
+    </footer>
+</body>
+
+</html>
